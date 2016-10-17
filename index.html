@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Astroworld</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="body"><!--body starts-->
+  <nav class="navbar navbar-inverse navbar-fixed-top"><!--nav starts-->
+    <div class="container-fluid"><!--container_fluid  -->
+      <div class="navbar-header"><!--navbar header starts-->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Astroworld</a>
+      </div><!--navbar header ends-->
+      <div class="collapse navbar-collapse" id="myNavbar"> <!--navbar div starts-->
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span>&nbsp; My Account
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="text-center"><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;  profile</a></li>
+                <li class="text-center"><a href="#"><span class="glyphicon glyphicon-edit"></span>&nbsp;  update</a></li>
+                <li class="text-center"><a href="#"><span class="glyphicon glyphicon-wrench"></span>&nbsp;  settings</a></li>
+                <li class="divider"></li>
+                <li class="text-center"><a href="#"><span class="glyphicon glyphicon-off"></span>&nbsp;  logout</a></li>
+              </ul></li>
+              <li><a href="kundali.html">Kundli</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+            <form action="#" class="navbar-form"><!--form starts -->
+              <input type="text" id="nav_right" class="form-control" placeholder=" Search this site..." id="navinput">
+              <button type="submit" class="btn btn-default" ><span class="glyphicon glyphicon-search pull-right"></span></button>
+            </form><!--form ends -->
+          </div><!--navbar div ends -->
+        </div><!--container_fluid ends -->
+      </nav><!--nav tag ends -->
+      <div class="full-width-div"><!--full-width-div starts -->
+        <div class="carousel slide" id="myCarousel" data-ride="carousel"><!--Carousel starts -->
+          <ol class="carousel-indicators">  <!-- Indicators -->
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox"><!-- Wrapper for slides -->
+            <div class="item active" id="slide1">
+              <img src="images/carousel_8.jpg" alt="carousel" >
+              <div class="carousel-caption xyz">
+                <h3>Future</h3>
+                <p>Astroworld helps you to get a glance of your future</p>
+              </div>
+            </div>
+            <div class="item" id="slide2">
+              <img src="images/background.jpeg" alt="carousel" >
+              <div class="carousel-caption xyz">
+                <h3>Career</h3>
+                <p>Astroworld helps in finding you the best career opportunities.</p>
+              </div>
+            </div>
+            <div class="item" id="slide3">
+              <img src="images/carousel_10.jpg" alt="carousel" >
+              <div class="carousel-caption xyz">
+                <h3>Marriage</h3>
+                <p>Astroworld helps you choose the best partner</p>
+              </div>
+            </div>
+            <div class="item" id="slide4">
+              <img src="images/carousel_9.jpg" alt="carousel" >
+              <div class="carousel-caption xyz">
+                <h3>Health</h3>
+                <p>Astroworld helps you overcome health issues</p>
+              </div>
+            </div>
+          </div>
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div><!--carousel ends -->
+        <div class="jumbotron"><!--jumbotron starts -->
+          <h1 class="text-center">Future is just one step away...</h1>
+          <h2 class="text-center">Just fill your details and see your future prediction...</h2>
+        </div><!--jumbotron ends -->
+      </div><!--full-width-div ends -->
+      <div class="container"><!--container starts -->
+        <div class="well astrologers"><!--well starts -->
+          <center> <h1>Our Astrologers</h1></center>
+        </div><!--well ends -->
+        <div class="row"><!--row for well starts -->
+          <div class="col-md-4">
+            <center><div class="card"><!--card div starts -->
+              <img src="images/abhay.jpg" alt="carousel" >
+              <div class="htmlcard">
+                <h4><b>Abhay Godse</b></h4>
+                <p>Phd.,Astrolgy</p>
+              </div>
+            </div></center><!--card div ends -->
+          </div>
+          <div class="col-md-4">
+            <center><div class="card"><!--card div starts -->
+              <img src="images/KRAAJ.jpg" alt="carousel" >
+              <div class="htmlcard">
+                <h4><b>Nitin Verma</b></h4>
+                <p>Phd.,Astrolgy</p>
+              </div>
+            </div></center><!--card div ends -->
+          </div>
+          <div class="col-md-4">
+            <center>  <div class="card"><!--card div starts -->
+              <img src="images/TIWARI.jpg" alt="carousel" >
+              <div class="htmlcard">
+                <h4><b>Rhithik Tiwari</b></h4>
+                <p>Phd.,Astrolgy</p>
+              </div>
+            </div></center><!--card div ends -->
+          </div>
+        </div><!--row div ends -->
+      </div><!--container ends -->
+      <div class="container"><!--container div starts -->
+        <div class="row"><!--row starts -->
+          <div class="col-md-6"><!--col starts -->
+            <center>  <div class="panel panel-success birth"><!--panel starts -->
+              <div class="panel-heading ">
+                <h1 class="panel-title text-center matching">BIRTH CHART</h1>
+              </div>
+              <div class="panel-body special"><!--panel body starts -->
+                <form action="#"><!--form starts -->
+                  <div class="form-group">
+                    <label for="fname">Name: </label>
+                    <input type="text" class="form-control" placeholder=" Name" id="fname" name="firstname">
+                    <label for="sex">Sex</label>
+                    <select id="sex" name="sex" placeholder=" Male" class="form-control">
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                      <option value="others">Others</option>
+                    </select>
+                    <label for="Date">Date</label>
+                    <input type="text" id="date" class="form-control" name="Date" placeholder="dd/mm/yyyy">
+                    <label for="Time">Time</label>
+                    <input type="text" id="time" class="form-control" name="Time" placeholder="hh/mm/ss">
+                    <label for="Place">Place</label>
+                    <input type="text" id="Place" class="form-control" placeholder=" Place"name="Place">
+                    <br>
+                    <button type="submit" class="btn btn-success btn-md" value="Submit">Submit</button>
+                  </div>
+                </form><!--form ends -->
+              </div><!--panel body ends-->
+            </div><!--panel ends -->
+          </center>
+        </div><!--col ends -->
+        <div class="col-md-6"><!--col starts -->
+          <center><div class="panel panel-success birth"><!--panel starts -->
+            <div class="panel-heading ">
+              <h1 class="panel-title text-center matching">KUNDALI MATCHING</h1>
+            </div>
+            <div class="panel-body special"><!--panel body starts -->
+              <form action="#"><!--form starts -->
+                <div class="form-group">
+                  <label for="fname">Name: </label>
+                  <input type="text" class="form-control" placeholder=" Name" id="fname" name="firstname">
+                  <label for="Date">Date</label>
+                  <input type="text" id="date" class="form-control" name="Date" placeholder="dd/mm/yyyy">
+                  <label for="Time">Time</label>
+                  <input type="text" id="time" class="form-control" name="Time" placeholder="hh/mm/ss">
+                  <label for="Place">Place</label>
+                  <input type="text" id="Place" class="form-control" placeholder=" Place"name="Place">
+                  <br>
+                  <P class="leader">Give partner's details on next page</P>
+                  <br>
+                  <button type="submit" class="btn btn-success btn-md" value="Submit">Next</button>
+                </div>
+              </form><!--form ends -->
+            </div><!--panel body ends -->
+          </div><!--panel ends -->
+        </center>
+      </div><!--col ends -->
+    </div><!--row ends -->
+  </div><!--container div ends -->
+  <div class="container"><!--container div starts -->
+    <div class="row annual"><!--annual row starts -->
+      <div class="col-12"><!--col-12 starts -->
+        <center><h1 class="space">Annual horoscope 2017</h1></center>
+      </div><!--col-12 ends -->
+    </div><!--annual row ends -->
+    <div class="row"><!--row starts -->
+      <div class="col-md-4">
+        <center><div class="panel panel-warning ann_horoscope"><!--panel starts -->
+          <div class="panel-body"><center><img  class=".img-rounded" src="images/aries.jpg" alt=""></center></div>
+          <div class="panel-footer panel-warning" id="pfoot">
+            <H3 id="pfooter" class="text-center">ARIES</H3>
+          </div>
+        </div><!--panel ends -->
+      </center>
+    </div>
+    <div class="col-md-4">
+      <center>
+        <div class="panel panel-warning ann_horoscope"><!--panel starts -->
+          <div class="panel-body"><center><img  class=".img-circle" src="images/taurus.jpg" alt=""></center></div>
+          <div class="panel-footer panel-warning" id="pfoot">
+            <H3 id="pfooter" class="text-center">TAURUS</H3>
+          </div>
+        </div><!--panel ends -->
+      </center>
+    </div>
+    <div class="col-md-4">
+      <center>
+        <div class="panel panel-warning ann_horoscope"><!--panel starts -->
+          <div class="panel-body"><center><img class=".img-rounded" src="images/gemini.jpg" alt=""></center></div>
+          <div class="panel-footer panel-warning" id="pfoot">
+            <H3 id="pfooter" class="text-center">GEMINI</H3>
+          </div>
+        </div><!--panel ends -->
+      </center>
+    </div>
+  </div><!--row ends -->
+  <div class="row"><!--row starts -->
+    <div class="col-md-4">
+      <center>
+        <div class="panel panel-warning ann_horoscope"><!--panel starts -->
+          <div class="panel-body"><center><img  class=".img-rounded" src="images/cancer.jpg" alt=""></center></div>
+          <div class="panel-footer panel-warning" id="pfoot">
+            <H3 id="pfooter" class="text-center">CANCER</H3>
+          </div>
+        </div><!--panel starts -->
+      </center>
+    </div>
+    <div class="col-md-4">
+      <center>
+        <div class="panel panel-warning ann_horoscope"><!--panel starts -->
+          <div class="panel-body"><center><img  class=".img-circle" src="images/leo.jpg" alt="">
+          </center>
+        </div>
+        <div class="panel-footer panel-warning" id="pfoot">
+          <H3 id="pfooter" class="text-center">LEO</H3>
+        </div>
+      </div><!--panel ends -->
+    </center>
+  </div>
+  <div class="col-md-4">
+    <center>
+      <div class="panel panel-warning ann_horoscope"><!--panel starts -->
+        <div class="panel-body"><center><img class=".img-rounded" src="images/virgo.jpg" alt=""></center></div>
+        <div class="panel-footer panel-warning" id="pfoot">
+          <H3 id="pfooter" class="text-center">VIRGO</H3>
+        </div>
+      </div><!--panel ends -->
+    </center>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4">
+    <center>
+      <div class="panel panel-warning ann_horoscope"><!--panel starts -->
+        <div class="panel-body"><center><img  class=".img-rounded" src="images/libra.jpg" alt=""></center></div>
+        <div class="panel-footer panel-warning" id="pfoot">
+          <H3 id="pfooter" class="text-center">LIBRA</H3>
+        </div>
+      </div><!--panel ends -->
+    </center>
+  </div>
+  <div class="col-md-4">
+    <center>
+      <div class="panel panel-warning ann_horoscope"><!--panel starts -->
+        <div class="panel-body">
+          <center>
+            <img  class=".img-circle" src="images/scorpio.jpg" alt="">
+          </center>
+        </div>
+        <div class="panel-footer panel-warning" id="pfoot">
+          <H3 id="pfooter" class="text-center">SCORPIO</H3>
+        </div>
+      </div><!--panel ends -->
+    </center>
+  </div>
+  <div class="col-md-4">
+    <center>
+      <div class="panel panel-warning ann_horoscope"><!--panel starts -->
+        <div class="panel-body">
+          <center>
+            <img class=".img-rounded" src="images/sagittarius.jpg" alt="">
+          </center>
+        </div>
+        <div class="panel-footer panel-warning" id="pfoot">
+          <H3 id="pfooter" class="text-center">SAGITTARIUS</H3>
+        </div>
+      </div><!--panel ends -->
+    </center>
+  </div>
+</div>
+<div class="row"><!--row starts -->
+  <div class="col-md-4">
+    <center>
+      <div class="panel panel-warning ann_horoscope"><!--panel starts -->
+        <div class="panel-body">
+          <center>
+            <img  class=".img-rounded" src="images/capricon.jpg" alt="">
+          </center>
+        </div>
+        <div class="panel-footer panel-warning" id="pfoot">
+          <H3 id="pfooter" class="text-center">CAPRICON</H3>
+        </div>
+      </div><!--panel ends -->
+    </center>
+  </div>
+  <div class="col-md-4">
+    <center>
+      <div class="panel panel-warning ann_horoscope"><!--panel starts -->
+        <div class="panel-body">
+          <center>
+            <img  class=".img-circle" src="images/aquarius.jpg" alt="">
+          </center>
+        </div>
+        <div class="panel-footer panel-warning" id="pfoot">
+          <H3 id="pfooter" class="text-center">AQUARIUS</H3>
+        </div>
+      </div><!--panel ends -->
+    </center>
+  </div>
+  <div class="col-md-4">
+    <center>
+      <div class="panel panel-warning ann_horoscope"><!--panel starts -->
+        <div class="panel-body">
+          <center>
+            <img class=".img-rounded" src="images/pisces.jpg" alt="">
+          </center>
+        </div>
+        <div class="panel-footer panel-warning" id="pfoot">
+          <H3 id="pfooter" class="text-center">PISCES</H3>
+        </div>
+      </div><!--panel ends -->
+    </center>
+  </div>
+</div><!--row ends -->
+</div><!--container ends -->
+<div class="container"><!--container starts -->
+  <div class="row space"><!--space row starts -->
+    <div class="col-sm-12">
+      <h1 class="text-center">Related videos..</h1>
+    </div>
+  </div>
+  <div class="row"><!--row starts -->
+    <div class="col-sm-4">
+      <div class="embed-responsive embed-responsive-4by3"><!--series of videos -->
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/U7ZWY0OceW8" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="embed-responsive embed-responsive-4by3">
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/GAFPCSUw6tU" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="embed-responsive embed-responsive-4by3">
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/KnktbtbEcC0" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div><!--row ends -->
+</div><!--container ends -->
+<div class="container"><!--container starts -->
+  <div class="row"><!--row starts -->
+    <div class="col-12">
+      <h1><a href="#" class="btn btn-block btn-info">Subscribe here for more videos.</a></h1>
+    </div>
+  </div><!--row ends -->
+</div><!--container ends -->
+<div class="container-fluid"><!--container-fluid starts -->
+  <ul class="pager"><!--pager starts -->
+    <li><a href="#" class="btn disabled">Previous</a></li>
+    <li><a href="kundali.html" class="btn active">Next</a></li>
+  </ul><!--pager ends -->
+</div><!--container-fluid ends -->
+<div class="container-fluid contact"><!--container-fluid starts -->
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row"><!--row starts -->
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Bangalore, India</p>
+      <p><span class="glyphicon glyphicon-phone"></span> 8277330217</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>pandey.divyanshu34@gmail.com</p>
+    </div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div><!--row ends -->
+</div><!--container-fluid ends -->
+<div class="container-fluid foot"><!--container-fluid starts -->
+  <footer><!--footer starts -->
+    <div class="row"><!--row start -->
+      <div class="col-sm-2">
+        <h5>Copyright &copy; 2016</h5>
+        <p class="about">Divyanshu Pandey</p>
+      </div>
+      <div class="col-sm-3">
+        <h5>About us</h5>
+        <p class="about">AstroSage is one of the most authentic astrology destinations for not
+          only those who are seeking astrological assistance, but also for high-level
+          astrological research and development on wide scale. It is a prolific
+          astrological source for people to help them out from mundane questions
+          to specialized queries.
+        </p>
+      </div>
+      <div class="col-sm-3">
+        <h5>Navigation</h5>
+        <ul class="unstyled">
+          <li><a href="">Home</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Links</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-2">
+        <h5>Follow us</h5>
+        <ul class="unstyled">
+          <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i>&nbsp;Facebook</a></li>
+          <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i>&nbsp;Whatsapp</a></li>
+          <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i>&nbsp;Google-plus</a></li>
+          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;Twitter</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-2">
+        <h5>coded by <span class="glyphicon glyphicon-heart"></span> Divyanshu Pandey</h5>
+      </div>
+    </div>
+  </footer><!--footer ends -->
+</div><!--container-fluid endss -->
+</body><!--body ends -->
+</html>

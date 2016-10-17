@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Astroworld</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="bi"><!--body starts -->
+  <nav class="navbar navbar-inverse navbar-fixed-top"><!--nav starts -->
+    <div class="container-fluid"><!--containr-fluid starts -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Astroworld</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar"><!--collapse div starts -->
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span>&nbsp; My Account
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="text-center"><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;  profile</a></li>
+                <li class="text-center"><a href="#"><span class="glyphicon glyphicon-edit"></span>&nbsp;  update</a></li>
+                <li class="text-center"><a href="#"><span class="glyphicon glyphicon-wrench"></span>&nbsp;  settings</a></li>
+                <li class="divider"></li>
+                <li class="text-center"><a href="#"><span class="glyphicon glyphicon-off"></span>&nbsp;  logout</a></li>
+              </ul>
+            </li>
+            <li class="active"><a href="kundali.html">Kundli</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+          <form action="#" class="navbar-form">
+            <input type="text" id="nav_right" class="form-control" placeholder=" Search this site..." id="navinput">
+            <button type="submit" class="btn btn-default" ><span class="glyphicon glyphicon-search pull-right"></span></button>
+          </form>
+        </div><!--collapse div ends -->
+      </div><!--container-fluid ends -->
+    </nav><!--nav endds -->
+    <div class="full-width-div"><!--full width div starts -->
+      <div class="carousel slide" id="myCarousel" data-ride="carousel"><!--carousel starts -->
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active" id="slide1">
+            <img src="images/carousel_8.jpg" alt="carousel" >
+            <div class="carousel-caption">
+              <h3>Future</h3>
+              <p>Astroworld helps you to get a glance of your future</p>
+            </div>
+          </div>
+          <div class="item" id="slide2">
+            <img src="images/background.jpeg" alt="carousel" >
+            <div class="carousel-caption">
+              <h3>Career</h3>
+              <p>Astroworld helps in finding you the best career opportunities.</p>
+            </div>
+          </div>
+          <div class="item" id="slide3">
+            <img src="images/carousel_10.jpg" alt="carousel" >
+            <div class="carousel-caption">
+              <h3>Marriage</h3>
+              <p>Astroworld helps you choose the best partner</p>
+            </div>
+          </div>
+          <div class="item" id="slide4">
+            <img src="images/carousel_9.jpg" alt="carousel" >
+            <div class="carousel-caption">
+              <h3>Health</h3>
+              <p>Astroworld helps you overcome health issues</p>
+            </div>
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div><!--carousel ends -->
+      <div class="jumbotron"><!--jumbotron starts -->
+        <h1 class="text-center">Future is just one step away...</h1>
+        <h2 class="text-center">Just fill your details and see your future prediction..</h2>
+      </div><!--jumbotron ends -->
+    </div><!--container-fluid ends -->
+    <div class="container"><!--container starts -->
+      <div class="row" id="bigcallout"><!--big callout starts -->
+        <div class="col-12">
+          <div class="well well-small visible-xs "><!--well starts -->
+            <button id="phone" class="btn  btn-block btn-primary"><span class="glyphicon glyphicon-phone"></span> Give us a call</button>
+          </div><!--well ends -->
+          <div class="well" id="about_well"><!--about well starts -->
+            <div class="page-header">
+              <h1>About the site <small><i>what all features you get...</i></small></h1>
+            </div>
+            <p class="lead"> You can get the following advantages from Astroworld :</p>
+            <ul>
+              <li>Get the answer to your question</li>
+              <li>Get your weekly horoscope</li>
+              <li>you can ask question related to your career</li>
+              <li>We can help you in choosing the best partner</li>
+              <li>we can help you in overcoming health issues</li>
+            </ul>
+            <a href="#myModal" data-target="#myModal" data-toggle="modal" class="btn btn-success btn-lg">Click to ask a question..</a>
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Give your birth details and question...</h4>
+                  </div>
+                  <div class="modal-body">
+                    <form action="#">
+                      <div class="form-group">
+                        <label for="fname">Name: </label>
+                        <input type="text" class="form-control" placeholder=" Name" id="fname" name="firstname">
+                        <label for="sex">Sex</label>
+                        <select id="sex" name="sex" placeholder=" Male" class="form-control">
+                          <option value="male">Male</option>
+                          <option value="female">Female</option>
+                          <option value="others">Others</option>
+                        </select>
+                        <label for="Date">Date</label>
+                        <input type="text" id="date" class="form-control" name="Date" placeholder="dd/mm/yyyy">
+                        <label for="Time">Time</label>
+                        <input type="text" id="time" class="form-control" name="Time" placeholder="hh/mm/ss">
+                        <label for="Place">Place</label>
+                        <input type="text" id="Place" class="form-control" placeholder=" Place"name="Place">
+                        <label for="Question">Question</label>
+                        <textarea type="text" id="Question" placeholder=" Type your question here..." class="form-control" name="Question"></textarea>
+                        <br>
+                        <button type="submit" class="btn btn-success btn-md" value="Submit">Submit</button>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div><!-- end well-->
+          </div><!--about well ends -->
+        </div><!-- end row-->
+      </div><!--big callout ends -->
+    </div><!-- container ends-->
+    <div class="container"><!--container starts -->
+      <div class="row"><!--row starts -->
+        <div class="col-12">
+          <h2>&nbsp; Related questions..</h2>
+        </div>
+      </div><!--row ends -->
+      <div class="row" id="features"><!--row starts -->
+        <div class="col-lg-4 feature">
+          <center>
+            <div class="panel panel-info"><!--panel starts -->
+              <div class="panel-heading">
+                <h2 class="panel-title text-center"><b>Career Questions</b></h2>
+              </div>
+              <center><img src="images/career.jpg" alt="career" class="img-circle"></center>
+              <p>
+                Which career to opt....?
+                When will I get promotion..?
+                Job or buisness ?
+                Why is the business degrading ?
+                <br>
+                Whether you're looking for work
+                ,after a raise or promotion,  or
+                thinking about switching careers,
+                we will help you with all the
+                aspects of career.
+              </p>
+              <a href="#" class="btn btn-block btn-info btn-lg">Click to know more..</a>
+            </div><!--panel ends -->
+          </center>
+        </div>
+        <div class="col-lg-4 feature">
+          <center>
+            <div class="panel panel-info"><!--panel starts -->
+              <div class="panel-heading">
+                <h2 class="panel-title text-center"><b>Health Questions</b></h2>
+              </div>
+              <center><img src="images/download.jpg" alt="career" class="img-circle"></center>
+              <p>
+                We can achieve even great things when our
+                health is in a good status where mind and
+                body become strong and full of life and energy.
+                When the body is in a good health condition
+                we can do things with ease and comfort.
+              </p>
+              <a href="#" class="btn btn-block btn-info btn-lg">Click to know more..</a>
+            </div><!--panel ends -->
+          </center>
+        </div>
+        <div class="col-lg-4 feature">
+          <center>
+            <div class="panel panel-info"><!--panel starts -->
+              <div class="panel-heading">
+                <h2 class="panel-title text-center"><b>Marriage Questions</b></h2>
+              </div>
+              <center><img src="images/marriage.p.jpg" alt="career" class="img-circle"></center>
+              <p>
+                When will I get married? Will it be
+                an arranged marriage or a love marriage?
+                How will my married life be?
+                Married life not going the way you want ?
+                Through astroworld we will give
+                answer to your questions.Also we
+                try to solve your relationship issues.
+              </p>
+              <a href="#" class="btn btn-block btn-info btn-lg">Click to know more..</a>
+            </div><!--panel ends -->
+          </center>
+        </div>
+      </div><!--row ends -->
+    </div><!--container ends -->
+    <div class="container_fluid Carousel1"><!--container_fluid starts -->
+      <h2>Customer's Review</h2>
+      <div id="myCarousel1" class="carousel slide text-center" data-ride="carousel"><!--carousel starts -->
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <h4>"This site is the best astrology site. I am so happy with the result!"<br><span id="customer">Nitin Verma, Vice President, Jumbo Modelling</span></h4>
+          </div>
+          <div class="item">
+            <h4>"One word... WOW!!"<br><span id="customer">Rahul Tiwari, Spotboy, Ae Dil Hai Mushkil</span></h4>
+          </div>
+          <div class="item">
+            <h4>"Could I... BE any more happy with this site?"<br><span id="customer">Nitin Verma, Actor, Bahubali 3</span></h4>
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel1" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel1" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div><!--carousel ends -->
+    </div><!--container-fluid ends -->
+    <div class="container"><!--container starts -->
+      <div class="row"><!--row starts -->
+        <center>
+          <div class="col-sm-6 more_info"><!--row_info div starts -->
+            <h2 class="text-center">Indian Astrology</h2>
+            <br>
+            <ul class="nav nav-tabs nav-justified"><!--nav tabs -->
+              <li class="active"><a data-toggle="tab" href="#Parashar">Parashar Astrology</a></li>
+              <li><a data-toggle="tab" href="#Jaimini">Jaimini Astrology</a></li>
+            </ul>
+            <div class="tab-content">
+              <div id="Parashar" class="tab-pane fade in active">
+                <h3 class="text-center">Parashar Astrology</h3>
+                <center><img src="images/kundali5.jpg" class="img-thumbnail"  alt="kundali" align="center"></center>
+                <div class="p_lead">
+                  <p>  The most popularly followed astrological classics today
+                    are the ones written by Rishis like Parashara, Varahamihira,
+                    Garga, Jaimini and their followers.
+                    The credit for systematically explaining the entire
+                    theory of Hindu predictive astrology goes to Rishi
+                    Parashara, in his magnum opus Brihat Parashara Hora Shastra.
+                    According to one theory, Brahma taught the Vedas and Jyotisha
+                    to his son Narada. Narada in turn taught these to Rishi Saunaka.
+                  </p>
+                </div>
+              </div>
+              <div id="Jaimini" class="tab-pane fade">
+                <h3 class="text-center">Jaimini Astrology</h3>
+                <center><img src="images/jaimini.jpg" class="img-thumbnail" alt="kundali"></center>
+                <div class="p_lead">
+                  <p>   The ancient Sanskrit text called Jaimini Sutras is a treatise
+                    on the predictive part of Hindu astrology attributed to Maharishi
+                    Jaimini, the founder of the Purva Mimamsa branch of Hindu
+                    philosophy and author of twelve-chapter Upadesa Sutras,
+                    who was a disciple of Rishi Vyasa, son of Parashara.
+                    It comprises nine hundred and thirty-six sutras or
+                    aphorisms arranged in four chapters, and though having
+                    several distinct features of its own.</p>
+                  </div>
+                </div>
+              </div>
+            </div><!--mor_info div ends -->
+          </center>
+          <center>
+            <div class="col-sm-6 more_info"><!--more_info div starts -->
+              <h2 class="text-center">Our Astrologers Speak..</h2>
+              <br>
+              <ul class="nav nav-tabs nav-justified  nav-body"><!--nav tabs -->
+                <li class="active"><a data-toggle="tab" href="#Bejan">Bejan Daruwala</a></li>
+                <li><a data-toggle="tab" href="#Rao">K.N Rao</a></li>
+                <li><a data-toggle="tab" href="#Raj">Kapiel Raj</a></li>
+              </ul>
+              <div class="tab-content">
+                <div id="Rao" class="tab-pane fade">
+                  <h3 class="text-center">K.N Rao</h3>
+                  <center><img src="images/rao1.jpg" class="img-thumbnail"  alt="kundali"></center>
+                  <div class="p_lead">
+                    <p>  The most popularly followed astrological classics today
+                      are the ones written by Rishis like Parashara, Varahamihira,
+                      Garga, Jaimini and their followers.
+                      The credit for systematically explaining the entire
+                      theory of Hindu predictive astrology goes to Rishi
+                      Parashara, in his magnum opus Brihat Parashara Hora Shastra.
+                      According to one theory, Brahma taught the Vedas and Jyotisha
+                      to his son Narada. Narada in turn taught these to Rishi Saunaka.
+                    </p>
+                  </div>
+                </div>
+                <div id="Raj" class="tab-pane fade">
+                  <h3 class="text-center">Kapiel Raj</h3>
+                  <center><img src="images/kr.jpg" class="img-thumbnail"  alt="kundali"></center>
+                  <div class="p_lead">
+                    <p>  The most popularly followed astrological classics today
+                      are the ones written by Rishis like Parashara, Varahamihira,
+                      Garga, Jaimini and their followers.
+                      The credit for systematically explaining the entire
+                      theory of Hindu predictive astrology goes to Rishi
+                      Parashara, in his magnum opus Brihat Parashara Hora Shastra.
+                      According to one theory, Brahma taught the Vedas and Jyotisha
+                      to his son Narada. Narada in turn taught these to Rishi Saunaka.
+                    </p>
+                  </div>
+                </div>
+                <div id="Bejan" class="tab-pane fade in active">
+                  <h3 class="text-center">Bejan Daruwala</h3>
+                  <center><img src="images/BJ.jpg" class="img-thumbnail" alt="kundali"></center>
+                  <div class="p_lead">
+                    <p>   The ancient Sanskrit text called Jaimini Sutras is a treatise
+                      on the predictive part of Hindu astrology attributed to Maharishi
+                      Jaimini, the founder of the Purva Mimamsa branch of Hindu
+                      philosophy and author of twelve-chapter Upadesa Sutras,
+                      who was a disciple of Rishi Vyasa, son of Parashara.
+                      It comprises nine hundred and thirty-six sutras or
+                      aphorisms arranged in four chapters, and though having
+                      several distinct features of its own.</p>
+                    </div>
+                  </div>
+                </div>
+              </div><!--more_info div ends -->
+            </center>
+          </div><!--row ends -->
+        </div><!--container ends -->
+        <div class="container loc"><!--loc container starts -->
+          <h2 class="text-center"><span class="glyphicon glyphicon-map-marker">&nbsp;Our Location</span></h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.1344906514914!2d77.6486881490828!3d12.8345846621459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6b7e842a9729%3A0x3ab3d1837ce30de8!2s228%2C+2nd+Cross+Road%2C+Neeladri+Nagar%2C+Electronics+City+Phase+1%2C+Electronic+City%2C+Bengaluru%2C+Karnataka+560100!5e0!3m2!1sen!2sin!4v1476287043004" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe><!--map -->
+        </div><!--loc container ends -->
+        <div class="container"><!--pricing container starts -->
+          <div class="text-center">
+            <h2>Pricing</h2>
+            <h4>Choose a payment plan that works for you</h4>
+          </div>
+          <div class="row" ><!--panel row starts -->
+            <div class="col-sm-4">
+              <center>
+                <div class="panel panel-info text-center"><!--panel starts -->
+                  <div class="panel-heading">
+                    <h2>Silver</h2>
+                  </div>
+                  <div class="panel-body" id="pricing">
+                    <p><strong>22 ques.</strong> 1 month</p>
+                    <p><strong>1 ques.</strong> daily</p>
+                    <p><strong>6 ques.</strong> weekly</p>
+                  </div>
+                  <div class="panel-footer">
+                    <h3>Rs.3000</h3>
+                    <h4>per month</h4>
+                  </div>
+                  <a href="#" class="btn btn-block btn-info btn-lg">Click to know more..</a>
+                </div><!--panel ends -->
+              </center>
+            </div>
+            <div class="col-sm-4">
+              <center>
+                <div class="panel panel-info text-center"><!--panel starts -->
+                  <div class="panel-heading">
+                    <h1>Gold</h1>
+                  </div>
+                  <div class="panel-body">
+                    <p><strong>150 ques.</strong> 6 months</p>
+                    <p><strong>1 ques.</strong> daily</p>
+                    <p><strong>6 ques.</strong> weekly</p>
+                  </div>
+                  <div class="panel-footer">
+                    <h3>Rs.16000</h3>
+                    <h4>per half-yearly</h4>
+                  </div>
+                  <a href="#" class="btn btn-block btn-info btn-lg">Click to know more..</a>
+                </div><!--panel ends -->
+              </center>
+            </div>
+            <div class="col-sm-4">
+              <center>
+                <div class="panel panel-info text-center"><!--panel starts -->
+                  <div class="panel-heading">
+                    <h1>Platinum</h1>
+                  </div>
+                  <div class="panel-body">
+                    <p><strong>300 ques.</strong> 1 year</p>
+                    <p><strong>1 ques.</strong> daily</p>
+                    <p><strong>6 ques.</strong> weekly</p>
+                  </div>
+                  <div class="panel-footer">
+                    <h3>Rs.30000</h3>
+                    <h4>Yearly</h4>
+                  </div>
+                  <a href="#" class="btn btn-block btn-info btn-lg">Click to know more..</a>
+                </div><!--panel ends -->
+              </center>
+            </div>
+          </div><!--panel row ends -->
+        </div><!--container ends -->
+        <div class="container_fluid"><!--container-fluid starts -->
+          <ul class="pager"><!--pager -->
+            <li><a href="index.html" class="btn active">Previous</a></li>
+            <li><a href="#" class="btn disabled">Next</a></li>
+          </ul>
+        </div><!--container-fluid ends -->
+        <div class="container-fluid contact"><!--container-fluid starts -->
+          <h2 class="text-center">CONTACT</h2>
+          <div class="row"><!--row starts -->
+            <div class="col-sm-5">
+              <p>Contact us and we'll get back to you within 24 hours.</p>
+              <p><span class="glyphicon glyphicon-map-marker"></span> Bangalore, India</p>
+              <p><span class="glyphicon glyphicon-phone"></span> 8277330217</p>
+              <p><span class="glyphicon glyphicon-envelope"></span>pandey.divyanshu34@gmail.com</p>
+            </div>
+            <div class="col-sm-7">
+              <div class="row">
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                </div>
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                </div>
+              </div>
+              <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+              <div class="row">
+                <div class="col-sm-12 form-group">
+                  <button class="btn btn-default pull-right" type="submit">Send</button>
+                </div>
+              </div>
+            </div>
+          </div><!--row ends -->
+        </div><!--container-fluid ends -->
+        <div class="container-fluid foot"><!--container-fluid starts -->
+          <footer><!--footer starts -->
+            <div class="row"><!--row start -->
+              <div class="col-sm-2">
+                <h5>Copyright &copy; 2016</h5>
+                <p class="about">Divyanshu Pandey</p>
+              </div>
+              <div class="col-sm-3">
+                <h5>About us</h5>
+                <p class="about">AstroSage is one of the most authentic astrology destinations for not
+                  only those who are seeking astrological assistance, but also for high-level
+                  astrological research and development on wide scale. It is a prolific
+                  astrological source for people to help them out from mundane questions
+                  to specialized queries.
+                </p>
+              </div>
+              <div class="col-sm-3">
+                <h5>Navigation</h5>
+                <ul class="unstyled">
+                  <li><a href="">Home</a></li>
+                  <li><a href="">Services</a></li>
+                  <li><a href="">Links</a></li>
+                  <li><a href="">Contact</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-2">
+                <h5>Follow us</h5>
+                <ul class="unstyled">
+                  <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i>&nbsp;Facebook</a></li>
+                  <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i>&nbsp;Whatsapp</a></li>
+                  <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i>&nbsp;Google-plus</a></li>
+                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;Twitter</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-2">
+                <h5>coded by <span class="glyphicon glyphicon-heart"></span> Divyanshu Pandey</h5>
+              </div>
+            </div>
+          </footer><!--footer ends -->
+        </div><!--container-fluid endss -->
+      </body><!--body ends -->
+      </html>

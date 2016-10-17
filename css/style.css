@@ -1,0 +1,388 @@
+body
+{
+  background-color: #ffffcc;
+}
+.navbar,.navbar-inverse
+{
+  height:51px;
+  background: #996600;
+}
+
+#about_well
+{
+  background-color:  #ffeb99;
+}
+.space
+{
+  margin-top:30px;
+  margin-bottom:25px;
+}
+.jumbotron{
+  margin-top: 0;
+  background-color:#996600;
+  color: #d6d6c2;
+}
+.navbar-brand
+{
+  font-family: cursive,Satisfy;
+  font-size: 30px;
+}
+.well{
+  background-color: #cc8800;
+}
+#navinput
+{
+  width: 300px;
+}
+#myCarousel{
+  margin-top: 51px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.full-width-div {
+  width: 100%;
+}
+.contact{
+  background-color: #e6f7ff;
+  margin-top: 30px;
+}
+.text-center h2
+{
+  padding-bottom: 5px;
+}
+.panel-body{
+  background-color:  #ccffcc;
+}
+#pricing_panel
+{
+  margin-bottom:20px;
+}
+#myCarousel img{
+  height: 700px;
+  width: 1600px;
+}
+.panel-footer
+{
+  height: 100px;
+}
+#pfoot
+{
+  height: 50px;
+  background-color:  #cc8800;
+}
+.annual{
+  margin-bottom: 20px;
+}
+#pfooter{
+  padding: 0;
+  margin: 0;
+}
+.carousel-caption
+{
+  font-size: 38px;
+}
+.carousel-caption h3
+{
+  font-size: 50px;
+}
+.pagination
+{
+  margin-top: 20px;
+  align-items: center;
+}
+
+.more_info
+{
+  margin-left: 2%;
+  margin-right: 2%;
+  width:46%;
+  background-color:#ffeb99;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.more_info img
+{
+  height: 350px;
+  width: 400px;
+}
+.more_info p
+{
+  text-align: justify;
+}
+.more_info h2
+{
+  padding: 8px;
+}
+.p_lead{
+  padding: 10%;
+  margin-top: 21px;
+  margin-bottom:6px;
+  font-size: 18px;
+}
+
+.loc{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.loc h2
+{
+  padding-bottom: 20px;
+}
+
+#features
+{
+  margin-top:15px;
+}
+#features p{
+  padding: 5px 5px;
+  text-align: center;
+}
+.well a{
+
+  margin-top: 7px;
+  margin-left: 35px;
+}
+#features .panel-heading
+{
+  height:60px;
+}
+#features .panel-title
+{
+  padding-top: 12px;
+}
+.birth
+{
+  background-color:  #e6ffe6;
+}
+.special
+{
+  background-color:  #e6ffe6;
+}
+.matching
+{
+  font-size: 25px;
+  height:40px;
+}
+.leader{
+  font-size: 21px;
+  margin-bottom: 13px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 90%;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  height: 350px;
+}
+
+.htmlcard{
+  background-color:  #cc8800;
+  padding: 2px 16px;
+}
+
+.panel img
+{
+  height: 210px;
+  width: 210px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#bigcallout
+{
+  margin-top: 20px;
+  padding: 0 0 0 0;
+}
+.well .page-header{
+  margin-top: 0;
+}
+.well .page-header h1{
+  margin-top: 0;
+}
+
+hr{
+  background-color:#d6d6c2;
+  height: 1px;
+}
+.Carousel1{
+  background-color: #b3ecff;
+  height: 350px;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#customer{
+  font-style: italic;
+  line-height: 25px;
+  font-size: 17px;
+}
+.carousel-indicators{
+  margin-top: 40px;
+}
+.about
+{
+  font-size:12px;
+  align:justify;
+}
+.Carousel1 h2{
+  padding-top:40px;
+  padding-bottom: 40px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+label{
+  color:#00131a;
+  font-size: 17px;
+}
+.foot{
+  background-color: #004466;
+  color: white;
+}
+ul.unstyled{
+  list-style: none;
+  padding: 0;
+}
+.btn-md{
+  width: 110px;
+}
+
+
+@media (max-width:1400px)
+{
+  .panel img
+  {
+    width: 190px;
+    height: 190px;
+  }
+  .card img {
+    height: 350px;
+  }
+  .card {
+    width: 90%;
+  }
+  #myCarousel img{
+    height: 500px;
+    width: 1400px;
+  }
+  .carousel-caption
+  {
+    font-size: 18px;
+  }
+  .carousel-caption h3
+  {
+    font-size: 24px;
+  }
+
+  .jumbotron h1{
+    font-size: 26px;
+  }
+  .jumbotron h2{
+    font-size: 22px;
+  }
+}
+
+@media (max-width:1200px)
+{
+  .panel img
+  {
+    height: 180px;
+    width:180px;
+  }
+  .panel{
+    width: 70%;
+  }
+  #nav_right{
+    width:13%;
+  }
+  .birth{
+    width: 80%;
+  }
+
+  .ann_horoscope{
+    width: 80%;
+  }
+  #myCarousel img{
+    height: 478px;
+    width: 1200px;
+  }
+  .carousel-caption
+  {
+    font-size: 18px;
+  }
+  .carousel-caption h3
+  {
+    font-size: 24px;
+  }
+  .card {
+    width: 80%;
+  }
+}
+@media (max-width:768px)
+{
+  .panel img
+  {
+    height: 200px;
+    width: 200px;
+  }
+  .more_info
+  {
+    width: 70%;
+  }
+  .about
+  {
+    font-size: 9px;
+  }
+  a{
+    font-size: 9px;
+  }
+  #myCarousel img{
+    height: 320px;
+    width: 768px;
+  }
+  .carousel-caption
+  {
+    font-size: 16px;
+  }
+  .carousel-caption h3
+  {
+    font-size: 20px;
+  }
+  .jumbotron h1{
+    font-size: 20px;
+  }
+  .jumbotron h2{
+    font-size: 16px;
+  }
+}
+@media (max-width:480px)
+{
+  .panel img
+  {
+    height: 200px;
+    width: 200px;
+  }
+  #myCarousel img{
+    height: 250px;
+    width: 480px;
+  }
+  .carousel-caption
+  {
+    font-size: 13px;
+  }
+  .carousel-caption h3
+  {
+    font-size: 16px;
+  }
+  .well a{
+    margin-top: 5px;
+    margin-left: 10px;;
+  }
+}
