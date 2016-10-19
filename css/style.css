@@ -2,12 +2,16 @@ body
 {
   background-color: #ffffcc;
 }
+<!--navbar-->
 .navbar,.navbar-inverse
 {
+  background-color: #996600;
   height:51px;
-  background: #996600;
 }
-
+#myNavbar
+{
+  background-color: #996600;
+}
 #about_well
 {
   background-color:  #ffeb99;
@@ -34,6 +38,7 @@ body
 {
   width: 300px;
 }
+<!--Carousel-->
 #myCarousel{
   margin-top: 51px;
   padding-left: 0;
@@ -169,7 +174,6 @@ body
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  width: 90%;
   border-radius: 5px;
   margin-bottom: 50px;
 }
@@ -253,8 +257,7 @@ ul.unstyled{
 .btn-md{
   width: 110px;
 }
-
-
+<!--medaia query-->
 @media (max-width:1400px)
 {
   .panel img
@@ -263,11 +266,9 @@ ul.unstyled{
     height: 190px;
   }
   .card img {
-    height: 350px;
+    height: 300px;
   }
-  .card {
-    width: 90%;
-  }
+
   #myCarousel img{
     height: 500px;
     width: 1400px;
@@ -299,6 +300,11 @@ ul.unstyled{
   .panel{
     width: 70%;
   }
+  .card img {
+    height: 270px;
+    width: 293px;
+  }
+
   #nav_right{
     width:13%;
   }
@@ -321,12 +327,20 @@ ul.unstyled{
   {
     font-size: 24px;
   }
-  .card {
-    width: 80%;
+}
+@media (max-width:991px)
+{
+  .card img {
+    height: 400px;
+    width: 100%;
   }
+.card{
+  width: 55%;
+}
 }
 @media (max-width:768px)
 {
+
   .panel img
   {
     height: 200px;
@@ -364,6 +378,13 @@ ul.unstyled{
 }
 @media (max-width:480px)
 {
+  .card img {
+    height: 350px;
+    width: 100%;
+  }
+  .card{
+  width: 75%;
+  }
   .panel img
   {
     height: 200px;
